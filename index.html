@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Collins Sarpong is a creative developer building thoughtful digital experiences."
+    />
+    <title>Collins Sarpong — Creative Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Collins Sarpong, home">
+        <span class="brand-mark">CS</span>
+        <span>Collins Sarpong</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="mailto:hello@collinssarpong.com">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Based in Ghana · Available worldwide</p>
+          <h1 id="hero-title">I create digital<br />experiences that <em>matter.</em></h1>
+          <p class="hero-intro">
+            Hi, I’m <strong>Collins Sarpong</strong> — a creative developer focused on crafting
+            useful, memorable and human-centered experiences for the web.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="mailto:hello@collinssarpong.com">Let’s work together <span>→</span></a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Collins Sarpong monogram artwork">
+          <div class="visual-grid" aria-hidden="true"></div>
+          <div class="portrait-card">
+            <div class="portrait-orbit orbit-one"></div>
+            <div class="portrait-orbit orbit-two"></div>
+            <div class="monogram">C<span>S</span></div>
+            <p>DESIGN <span>×</span> CODE</p>
+          </div>
+          <div class="floating-note note-top">Ideas to interface</div>
+          <div class="floating-note note-bottom"><i></i> Open to opportunities</div>
+        </div>
+
+        <a class="scroll-cue" href="#about" aria-label="Scroll to about section">
+          <span>Scroll to discover</span><b>↓</b>
+        </a>
+      </section>
+
+      <section id="about" class="intro-section" aria-labelledby="about-title">
+        <p class="section-number">01 / About</p>
+        <h2 id="about-title">Thoughtful design.<br />Clean code. <em>Real impact.</em></h2>
+        <p>
+          I bridge creativity and technology to turn ambitious ideas into clear,
+          engaging digital products. This portfolio is just getting started — more
+          projects and stories are on the way.
+        </p>
+      </section>
+
+      <section id="work" class="work-section" aria-labelledby="work-title">
+        <div>
+          <p class="section-number">02 / Selected work</p>
+          <h2 id="work-title">New work is<br />coming soon.</h2>
+        </div>
+        <a class="round-link" href="mailto:hello@collinssarpong.com" aria-label="Start a project with Collins">Let’s talk <span>↗</span></a>
+      </section>
+    </main>
+
+    <footer>
+      <span>© <span id="year"></span> Collins Sarpong</span>
+      <a href="#home">Back to top ↑</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
